@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     var membernamearray  : [String] = [""]
-    
+    var emojiarray : [String: String] = ["a": "😃","b" : "✨", "c" : "📲", "d" : "🤩","e" : "👾","f" : "🦾","g" : "🤖","h" : "🦋","i" : "🤪", "j" : "🥳", "k" : "🤯","l" : "👺","m" : "👽","n" : "👀","o" : "👨🏻‍💻","p" : "👩🏻‍💻","q" : "🌚","r" : "🌟","s" : "☃️","t" : "🌬","u" : "🌻","v" : "🌞","w" : "🥶","x" : "😈","y" : "👑","z" : "🎮","ا": "😃","ب" : "✨", "ت" : "📲", "ث" : "🤩","ج" : "👾","ح" : "🦾","خ" : "🤖","د" : "🦋","ذ" : "🤪", "ر" : "🥳", "ز" : "🤯","س" : "👺","ش" : "👽","ص" : "👀","ض" : "👨🏻‍💻","ط" : "👩🏻‍💻","ظ" : "🌚","ع" : "🌟","غ" : "☃️","ف" : "🌬","ق" : "🌻","ك" : "🌞","ل" : "🥶","ن" : "😈","ه"  : "🎻", "ي":"🎤","و" : "🎻"]
     var ConvertToletter = true
     @IBOutlet weak var secretsocietynamelabel: UILabel!
     @IBOutlet weak var nametextfield: UITextField!
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         //نضيف المتغير member  إلى مصفوفة membernamearray
         
-       
+        membernamearray.append(member)
        
         // النهايه
        
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
     // استدعاء الدالهfunctioncall
         
-        var functioncall = ""
+        var functioncall = secretnametoletter(membernamearray: membernamearray)
         
         //النهايه
              secretsocietynamelabel.text =  functioncall
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
 
         
-        var functioncall = ""
+        var functioncall = secretnametoEmoji(membernamearray: membernamearray)
         
       ///النهايه
         
@@ -70,7 +70,70 @@ class ViewController: UIViewController {
     
     
     
+    
+    
+    // student sol
+    
+    func secretnametoletter(membernamearray : [String] )-> String
+    {   var secretname = ""
+        for member in membernamearray
+        {
+            secretname.append(String (member.prefix(1)))
+
+        }
+       return secretname
+    }
+    
+       func secretnametoEmoji(membernamearray : [String] )-> String
+       {   var secretname = ""
+            var emojiarray = ["😎","📲","🤩"]
+            var letterarray = ["a","b","c"]
+        
+        for i in 0..<(membernamearray.count)
+        {
+            for j in 0..<(letterarray.count){
+            if membernamearray[i].prefix(1) == letterarray[j]
+            {
+                secretname.append(emojiarray[j]  )
+            }
+            }}
+    return secretname
+    }
   
+  
+    
+    
+  // sol 1 using one function with dictonary
+    func secretname(membernamearray : [String],ConvertToletter : Bool  )-> String
+    {
+        var secretname = ""
+        
+        if ConvertToletter == true
+        {
+            for member in membernamearray
+            {
+                secretname.append(String (member.prefix(1)))
+
+            }
+            
+            
+        }
+        else if ConvertToletter == false
+        {
+            for member in membernamearray{
+           for (letter,emoji) in emojiarray
+           {
+            if member.prefix(1) == letter
+            {
+                secretname.append(emoji)
+            }
+            
+            }
+            
+            }}
+        return secretname
+    }
+    
     
     
 }
