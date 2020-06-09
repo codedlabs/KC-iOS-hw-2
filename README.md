@@ -11,7 +11,7 @@
 4. Xcode قم بفتح المشروع بالـ
 5. `membernamearray` إلى المصفوفة  `member` قم بإضافة المتغير 
 6. `secretnametoletter` ويجب ان تكون اسم هذه الدالة  Return Type قم بإنشاء دالة من نوع الناتج    
-7. كلمة مكونة من أول حرف من كل اسماء الاعضاء Return  و الناتج  `membernamearray` أن تأخد اسماء الأعضاء من مصفوفة  `secretnametoletter` يجب على دالة\
+7. كلمة مكونة من أول حرف من كل اسماء الاعضاء Return  و الناتج  `membernamearray` أن تأخد اسماء الأعضاء من مصفوفة  `secretnametoletter` يجب على دالة
 > داخل الدالة `for-in` والجمل الدوران `if statements`  ملاحظة: يجب استخدام الجمل الشرطية 
 8. ` var functioncall =` بداخل `membernamearray` قم بإستدعاء
 6. `secretnametoEmoji` ويجب ان تكون اسم هذه الدالة  Return Type قم بإنشاء دالة من نوع الناتج    
