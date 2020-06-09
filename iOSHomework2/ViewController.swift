@@ -23,52 +23,62 @@ class ViewController: UIViewController {
         
         let member = nametextfield.text!
         
-        //نضيف المتغير member  إلى مصفوفة membernamearray
+        // قم بإضافة المتغير member إلى المصفوفة membernamearray هنا
+       
+         
+              // النهايه----------------------
+       
         
-       
-       
-        // النهايه
-       
         nametextfield.text = ""
     }
+    
+
+    // اكتب الداله secretnametoletter هنا
+        
+  
+        // النهايه----------------------
+        
+        
     
     @IBAction func Letterbutton(_ sender: Any) {
       
         
-    // استدعاء الدالهfunctioncall
+    // قم باستدعاء الداله secretnametoletter داخل المتغير functioncall
         
-        var functioncall = ""
-        
-        //النهايه
+        var functioncall =
+                  
+                   // النهايه----------------------
+            
              secretsocietynamelabel.text =  functioncall
     }
+    
+    
+    
+    
+    
+       // اكتب الداله secretnametoEmoji  هنا
+           
+           
+        
+           
+         
+                  // النهايه----------------------
+           
     
     @IBAction func emojibutton(_ sender: Any) {
       
         
         
-             
-         // استدعاء الداله داخل المتغير functioncall
         
+             // قم باستدعاء الداله secretnametoEmoji داخل المتغير functioncall
+                
+        var functioncall =
 
-        
-        var functioncall = ""
-        
-      ///النهايه
-        
-        
+            // النهايه----------------------
+     
         secretsocietynamelabel.text =  functioncall
        
     }
-// اكتب الداله هنا
-    
-    
- 
-    
-    
-    // النهايه
-    
-    
     
   
     
