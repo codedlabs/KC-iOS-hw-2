@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         
     // قم باستدعاء الداله secretnametoletter داخل المتغير functioncall
         
-        var functioncall =
+        var functioncall = ""
                   
                    // النهايه----------------------
             
@@ -72,7 +72,7 @@ class ViewController: UIViewController {
         
              // قم باستدعاء الداله secretnametoEmoji داخل المتغير functioncall
                 
-        var functioncall =
+        var functioncall = ""
 
             // النهايه----------------------
      
