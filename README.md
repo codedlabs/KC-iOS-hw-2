@@ -19,7 +19,7 @@
 10.  لكل عضو emojis سلسلة  Return  و الناتج  `membernamearray` أن تأخد اسماء الأعضاء من مصفوفة  `secretnametoEmoji` يجب على دالة 
 > داخل الدالة `for-in` والجمل الدوران `if statements`  ملاحظة: يجب استخدام الجمل الشرطية 
 
-11. ` var functioncall =` بداخل `membernamearray` قم بإستدعاء
+11. ` var functioncall =` بداخل `secretnametoEmoji` قم بإستدعاء
 
 
 ### !بونص 
