@@ -23,64 +23,66 @@ class ViewController: UIViewController {
         
         let member = nametextfield.text!
         
-        // قم بإضافة المتغير member إلى المصفوفة membernamearray هنا
-       
-         
-              // النهايه----------------------
-       
+// MARK: -   1️⃣ تحت الخط memberNameArray إلي المصفوفه memberقم بإضافة المتغير
+
         
+
+// MARK: -   النهاية
+   
         nametextfield.text = ""
     }
     
 
-    // اكتب الداله secretnametoletter هنا
-        
-  
-        // النهايه----------------------
-        
         
     
     @IBAction func Letterbutton(_ sender: Any) {
       
+// MARK: -  4️⃣ functionCall داخل المتغير  secretNameLetter قم باستدعاء الدالة
         
-    // قم باستدعاء الداله secretnametoletter داخل المتغير functioncall
+        var functionCall = ""
         
-        var functioncall = ""
-                  
-                   // النهايه----------------------
+        
+// MARK: -   النهاية
+
             
-             secretsocietynamelabel.text =  functioncall
+             secretsocietynamelabel.text =  functionCall
     }
     
     
     
-    
-    
-       // اكتب الداله secretnametoEmoji  هنا
-           
-           
-        
-           
-         
-                  // النهايه----------------------
-           
     
     @IBAction func emojibutton(_ sender: Any) {
       
         
         
-        
-             // قم باستدعاء الداله secretnametoEmoji داخل المتغير functioncall
+// MARK: -  5️⃣ functionCall داخل المتغير  secretNameEmoji قم باستدعاء الدالة
                 
-        var functioncall = ""
-
-            // النهايه----------------------
-     
-        secretsocietynamelabel.text =  functioncall
+                var functionCall = ""
+                
+// MARK: -   النهاية
+       
+        secretsocietynamelabel.text =  functionCall
+        
        
     }
     
-  
+    
+    
+    
+ // MARK: - 2️⃣ تحت هذا الخط secretNameLetter قم بكتابة الداله
+    
+
+        // MARK: -   النهاية
+
+    
+    
+    
+    
+    // MARK: - 3️⃣ تحت هذا الخط secretNameEmoji قم بكتابة الداله
+          
+    
+          // MARK: -   النهاية
+
     
     
 }
