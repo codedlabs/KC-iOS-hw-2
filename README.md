@@ -23,8 +23,8 @@
 >  و تاخذ اول حرف من كل عنصر في المصفوفة`memberNameArray`  للدوران علي المصفوفة **for-in** ملاحظه : سوف تحتاج الى 
 > emojis سوف تكون عندك مصفوفتين ، الاولى للحروف و تحتوي علي الحروف العربية او الانجليزية ، الثانية  مصفوفة تحتوي على الـ 
 > الي يعتمد علي استخدام المؤشر من مصفوصهالحروف emoji  ثم مقارنة  مع مصفوفة  الحروف ، ثم وضع `memberNameArray` أخذ الحرف الاول من مصفوفه 
-11. 4️⃣ عند` var functionCall =` بداخل `secretNametoEmoji` قم بإستدعاء
-8.  عند 5️⃣ ` var functionCall =` بداخل `secretNameLetter` قم بإستدعاء
+9. 4️⃣ عند` var functionCall =` بداخل `secretNametoEmoji` قم بإستدعاء
+10.  عند 5️⃣ ` var functionCall =` بداخل `secretNameLetter` قم بإستدعاء
 
 ### !بونص 
 1.  Capital Letters و حروفه كلها String  ترجع `secretNameLetter` قم بجعل  دالة  
