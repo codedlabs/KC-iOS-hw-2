@@ -9,8 +9,8 @@
 
   ### خطوات 
 
- افتح رابط الواجب من [هنا](https://github.com/kuwaitcodes/ios-hw-2)
-1.قم بعمل  Fork لمجلد الواجب  
+ افتح رابط الواجب من [هنا](https://github.com/kuwaitcodes/ios-hw-2) \
+1. قم بعمل  Fork لمجلد الواجب  
 2. Open in GitHub Desktop قم بفتح الواجب عن طريق
 3. Xcode قم بفتح المشروع بالـ
 4.  Github Desktop للكود عن طريق commit بعد حل الواجب قم بعمل
