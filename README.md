@@ -13,7 +13,7 @@
 1. قم بعمل  Fork لمجلد الواجب  
 2. Open in GitHub Desktop قم بفتح الواجب عن طريق
 3. Xcode قم بفتح المشروع بالـ
-4. Github Desktop للكود عن طريق commit بعد حل الواجب قم بعمل
+4. بعد حل الواجب قم بعمل Commit للكود عن طريق Github Desktop 
 5. githubلرفع البيانات الى push ثم قم بعمل 
 
 6. قم بضغط علي  **ViewController.swift**  على جهتك اليسار
